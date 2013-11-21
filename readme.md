@@ -13,14 +13,11 @@ displays recent stories about that person from The New York Times, via their
 1. Place the repository on a server running PHP. For local development, on a Mac
    running MAMP, this would be `/Applications/MAMP/htdocs/` by default. For me,
    it's `~/localhost`.
-
 2. In `config.php`:
-
     * Define the URL where your project lives in `BASE_URL`. In my local
       development, this was `http://localhost/nythackday2013/filmstudies`
     * Define your Rotten Tomatoes and NYT API keys (`RT_API_KEY` and
       `NYT_API_KEY`)
-
 3. Open the `BASE_URL` in your browser to see the results.
 
 
